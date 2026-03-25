@@ -1,18 +1,11 @@
-# code block
-## code block test
-code block:
+# Tech Blog
 
-```ruby
-def setup_database
-  puts "Database connection details:#{params['database'].inspect}"
-  return unless params['database']
-  # estabilsh database connection
-  ActiveRecord::Base.establish_connection(params['database'])
-end
-```
+技術ブログの目録です。各記事は日本語（jp/）と中国語（cn/）で提供しています。
 
-image：
+## 記事一覧
 
-![パンダ](images/panda.png  "画像タイトル")
+### Google Cloud
 
-bb
+| # | タイトル | JP | CN |
+|---|---------|----|----|
+| 1 | BigQuery入門 - Google Cloudの大規模データ分析基盤を理解する | [日本語](jp/google-cloud/bigquery/) | [中文](cn/google-cloud/bigquery/) |
